@@ -18,7 +18,7 @@ const Weather=({weatherdetails})=>{
       </div>
 
       <div className="d-flex align-items-center mb-2">
-        <WiHumidity style={{ fontSize: "30px", marginRight: "10px", color: "blue" }} />
+        <WiHumidity style={{ fontSize: "30px", marginRight: "10px", color: "daggerblue" }} />
         <p className="mb-0">Humidity: {current.humidity}%</p>
       </div>
 
