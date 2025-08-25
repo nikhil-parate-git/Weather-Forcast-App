@@ -1,0 +1,8 @@
+.container-fluid{
+    background-image: url("./assets/cloud3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.card{
+    border-radius: 20px;
+}
