@@ -84,7 +84,7 @@ const App = () => {
               placeholder="Enter city name"
             />
             <button className="btn btn-primary w-100 " onClick={fetchweather}>
-              Get Weather
+              Check Weather
             </button>
           </div>
 
