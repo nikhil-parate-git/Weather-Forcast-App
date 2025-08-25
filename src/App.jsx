@@ -4,7 +4,7 @@ import Weather from "./Components/Weather";
 import "./App.css";
 const App = () => {
   const [allvalues, setvalues] = useState({
-    city: "nagpur",
+    city: "",
     location: {},
     current: {},
     error: "",
@@ -14,6 +14,8 @@ const App = () => {
     if (!allvalues.city) {
       setvalues({
         ...allvalues,
+        location:{},
+        current:{},
         error: "Please enter a city name",
         loading: false,
       });
