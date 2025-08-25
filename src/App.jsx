@@ -68,7 +68,7 @@ const App = () => {
         <div className="card shadow-lg bg-dark text-white p-4">
           <div className="text-center mb-4">
             <TiWeatherPartlySunny className="text-warning" size={50} />
-            <h1 className="fw-bold text-primary">Weather Forecast</h1>
+            <h1 className=" my-head fw-bold text-primary">Weather Forecast</h1>
           </div>
 
           <div className=" flex-column flex-md-row gap-2 mb-3">
@@ -87,7 +87,7 @@ const App = () => {
           </div>
 
           <p className="text-danger">{allvalues.error}</p>
-          
+
           {
           allvalues.loading ? (
             <div className="spinner-border text-primary mx-auto" role="status">
